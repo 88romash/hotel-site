@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Wekcome to the site </title>
+    <link rel="stylesheet" type="text/css" href="styleler.css">
+</head>
+<body>
+	<header>
+<h1>Welcome To Online Oder</h1>
+<div class="action"></div>
+</header>
+<main>
+	<div class="container">
+		<div class="screen togo">
+			<h2> these are the menu</h2>
+			<ul class="menu-items">
+			
+      </li>
+        <li class="menu-item">
+        <img src="./img/demo1.jpg" alt="CHOWMIN" class="menu-image">
+        <div class="menu-item-dets">
+          <p class="menu-item-heading">chowmin</p>
+          <p class="g-price">600YEN</p>
+        </div>
+        <button
+          class="add-button"
+          data-title="CHOWMIN"
+          data-price="600">BUY</button>
+      </li>
+       <li class="menu-item">
+        <img src="./img/demo1.jpg" alt="NAN" class="menu-image">
+        <div class="menu-item-dets">
+          <p class="menu-item-heading">NAN</p>
+          <p class="g-price">800YEN</p>
+        </div>
+        <button
+          class="add-button"
+          data-title="NAN"
+          data-price="800YEN">BUY</button>
+      </li>
+         <li class="menu-item">
+        <img src="./img/demo1.jpg" alt="PIZZA" class="menu-image">
+        <div class="menu-item-dets">
+          <p class="menu-item-heading">PIZZA</p>
+          <p class="g-price">800YEN</p>
+        </div>
+        <button
+          class="add-button"
+          data-title="PIZZA"
+          data-price="800YEN">BUY</button>
+
+</ul>
+
+
+				</div>
+			</div>
+
+</main>
+<label for="phone">Enter your phone number:</label>
+	<input type="tel" id="phone" name="phone" pattern="">
+	<br>
+	<label for="ADDRESS">Enter your address:</label>
+	<input type="address" id="address" name="ADDRESS" pattern="">
+		<form action="example.html"><input type="submit"></form>
+	
+	</form>
+
+</body>
+<footer>
+	<a href="contact us ">contact us for help</a>
+	
+</footer>
+</html>
+
